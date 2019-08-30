@@ -1,17 +1,7 @@
-dieren = {"panda": "bamboe", "leeuw": "zebra", "haai": "vis"}
+getallen = {1:1}
 
-dieren["koe"] = "gras"
-
-del dieren["koe"]
-
-for key in dieren:
-    print(key)
-    print(dieren[key])
+for i in range(2,5):
+    print(i)
+    getallen[i] = i*i
     
-print("raad welke dieren in de dictonary zitten")
-gok = input()
-
-if gok in dieren:
-    print(gok + " ja die zit er tussen")
-else:
-    print(gok + " nee die zit er niet tussen")
+print(getallen)
