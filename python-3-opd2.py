@@ -1,6 +1,11 @@
-def kerstboom(inpurt):
-    for i in range(len(inpurt)):
-        x = slice(i+1)
-        print(inpurt[x])
-        
-kerstboom("delete")
+def iets(x):
+    if x == 8:
+        return True
+    else:
+        return False
+    
+print(iets(8))
+
+
+
+    
