@@ -1,6 +1,6 @@
 def kerstboom(inpurt):
     for i in range(len(inpurt)):
-        inpurt = inpurt + 1
-        print(inpurt)
+        x = slice(i+1)
+        print(inpurt[x])
         
-kerstboom("kerstbom")
+kerstboom("delete")
