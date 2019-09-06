@@ -1,12 +1,8 @@
-def is_priemgetal(num):
-    if num > 1:
-        for i in range(2,num):
-           if (num % i) == 0:
-               print(num,"is geen priemgetal")
-               break
-        else:
-           print(num,"is een priemgetal")
-       
+def omdraaien(x):
+    reverse_x = x[::-1]
+    if x == reverse_x:
+        return True
     else:
-       print(num,"is geen priemgetal")       
-is_priemgetal(23)
+        return False
+    
+print(omdraaien("racecar"))
