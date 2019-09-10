@@ -1,5 +1,5 @@
-def lengte(array):
-    x = len(array)
-    return x
-      
-print(lengte(["apple","banana","cherry"]))
+def lampje(array,string):
+    array.append(string)
+    return array
+    
+print(lampje(["delete", "formule"], "modus"))
