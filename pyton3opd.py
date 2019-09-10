@@ -1,5 +1,5 @@
-def omdraai_list(array):
-    array.reverse()
-    return array
-    
-print(omdraai_list(["apple","banana","cherry"]))
+def lengte(array):
+    x = len(array)
+    return x
+      
+print(lengte(["apple","banana","cherry"]))
