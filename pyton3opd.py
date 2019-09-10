@@ -1,5 +1,9 @@
-def lampje(array):
-    array.pop(-1)
-    return array
+def lampje(array,string):
+    array.append(string)
+    if string in array:
+        array.remove(string)
+        return array
+    else:
+        return array
     
-print(lampje(["delete", "formule","modus"]))
+print(lampje(["delete", "formule"],"modus"))
