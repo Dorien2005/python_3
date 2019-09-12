@@ -1,6 +1,8 @@
-def kwardaat(getal):
-    dictionary = {}
-    for i in range(getal):
-        dictionary[i + 1] = (i+1)*(i+1)
-    return dictionary
-print(kwardaat(5))
+def bieb(keys):
+    dict = {1:1, 2:2, 3:3, 4:4, 5:5}
+    if keys in dict:
+        return True
+    else:
+        return False
+    
+print(bieb(4))
