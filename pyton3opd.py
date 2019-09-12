@@ -1,8 +1,8 @@
-def bieb(keys):
-    dict = {1:1, 2:2, 3:3, 4:4, 5:5}
-    if keys in dict:
-        return True
-    else:
-        return False
+def boek(numbers):
+    totaaal = 0
+    for key, value in numbers.items():
+        totaaal = totaaal + value
+    return totaaal
     
-print(bieb(4))
+
+print(boek({1:2,2:3,3:4,4:5,5:6}))
