@@ -1,8 +1,5 @@
-def boek(numbers):
-    totaaal = 0
-    for key, value in numbers.items():
-        totaaal = totaaal + value
-    return totaaal
-    
+def boek(numbers, key):
+    del numbers[key]
+    return numbers
 
-print(boek({1:2,2:3,3:4,4:5,5:6}))
+print(boek({1:2,2:3,3:4,4:5,5:6}, 5))
