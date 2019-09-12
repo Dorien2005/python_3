@@ -1,9 +1,6 @@
-def lampje(array,string):
-    array.append(string)
-    if string in array:
-        array.remove(string)
-        return array
-    else:
-        return array
-    
-print(lampje(["delete", "formule"],"modus"))
+def kwardaat(getal):
+    dictionary = {}
+    for i in range(getal):
+        dictionary[i + 1] = (i+1)*(i+1)
+    return dictionary
+print(kwardaat(5))
