@@ -1,5 +1,7 @@
-def copy(dict):
-    dictionary = dict.copy()
-    return dictionary
+def is_empty(dict):
+    if dict == {}:
+        return True
+    else:
+        return False
     
-print(copy({1:9,2:0,3:6,4:4,5:7}))
+print (is_empty({1:2,3:4}))
