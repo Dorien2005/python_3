@@ -1,0 +1,1 @@
+{'aardappel': 7, 'wortels': 1, 'ei': 69}
